@@ -43,7 +43,7 @@ section .layer1
      box-shadow: 0 25px 84px rgba(0,0,0,.8);;
 }
 .layer1 h1{
-    font-size: x-large;
+    font-size: large;
     color: #fff;
     position: relative;
     top: 70%;
@@ -72,7 +72,7 @@ section .layer3
      box-shadow: 0 25px 84px rgba(0,0,0,.8);;
 }
 .layer3 h1{
-    font-size: x-large;
+    font-size: large;
     color: #fff;
     position: relative;
     top: 70%;
@@ -101,7 +101,7 @@ section .layer4
      box-shadow: 0 25px 84px rgba(0,0,0,.8);;
 }
 .layer4 h1{
-    font-size: x-large;
+    font-size: large;
     color: #fff;
     position: relative;
     top: 70%;
@@ -130,7 +130,7 @@ section .layer5
      box-shadow: 0 25px 84px rgba(0,0,0,.8);;
 }
 .layer5 h1{
-    font-size: x-large;
+    font-size: large;
     color: #fff;
     position: relative;
     top: 70%;
@@ -159,7 +159,7 @@ section .layer6
      box-shadow: 0 25px 84px rgba(0,0,0,.8);;
 }
 .layer6 h1{
-    font-size: x-large;
+    font-size: large;
     color: #fff;
     position: relative;
     top: 70%;
@@ -188,7 +188,7 @@ section .layer7
      box-shadow: 0 25px 84px rgba(0,0,0,.8);;
 }
 .layer7 h1{
-    font-size: x-large;
+    font-size: large;
     color: #fff;
     position: relative;
     top: 70%;
