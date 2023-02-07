@@ -50,7 +50,7 @@ section .layer1
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family: sherif;
 }
 section .layer3
 {
@@ -79,7 +79,7 @@ section .layer3
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family: sherif;
 }
 section .layer4
 {
@@ -108,7 +108,7 @@ section .layer4
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family: sherif;
 }
 section .layer5
 {
@@ -137,7 +137,7 @@ section .layer5
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family: sherif;
 }
 section .layer6
 {
@@ -166,7 +166,7 @@ section .layer6
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family: sherif;
 }
 section .layer7
 {
@@ -195,7 +195,7 @@ section .layer7
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family: sherif;
 }
 #sideNav{
     width: 240px;
@@ -245,8 +245,9 @@ nav ul li a{
 }
 .line1 h1{
     font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
-    font-size: 48px;
+    font-size: 34px;
    position: relative;
+   padding-top: 14px;
     top: 10px;
     left: 4%;
     color: #ffffff;

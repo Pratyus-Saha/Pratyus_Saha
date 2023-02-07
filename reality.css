@@ -63,7 +63,7 @@ section .layer1
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family: sherif;
 }
 section .layer3
 {
@@ -92,7 +92,7 @@ section .layer3
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family: sherif;
 }
 section .layer4
 {
@@ -121,7 +121,7 @@ section .layer4
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family:sherif;
 }
 section .layer5
 {
@@ -150,7 +150,7 @@ section .layer5
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family: sherif;
 }
 section .layer6
 {
@@ -179,7 +179,7 @@ section .layer6
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family: sherif;
 }
 section .layer7
 {
@@ -208,11 +208,10 @@ section .layer7
     text-align: center;
     background-color: #000000;
     opacity: 80%;
-    font-family:fantasy
+    font-family: sherif;
 }
 .line2{
     position: relative;
-    padding-top: 180px;
     color: rgb(255, 255, 255);
     left: 120px;
     top: 4%;
