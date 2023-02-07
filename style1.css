@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sherif;
+}
+section
+{
+    width: 100;
+    height: 100vh;
+}
+section .layer2
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: 1s;
+    background-image: url();
+
+}
+.inner{
+    width: 20%;
+    height: 100%;
+    background-image: url(pattern.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: 400%,400%;
+    transition: 2s;
+}
+.layer2:hover .inner{
+    background-position: 100%,100%;
+}
+section .layer1
+{
+    position: fixed;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+    background: #000;
+    background:url(portrait.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 1s;
+    z-index: 1;
+   
+    
+}
+.layer1:hover
+{
+     box-shadow: 0 25px 84px rgba(0,0,0,.8);;
+}
+.line2{
+    position: relative;
+    padding-top: 180px;
+    color: rgb(255, 255, 255);
+    left: 70%;
+    top: 4%;
+ 
+}
+.line2 h1{
+    font-weight: bold;
+    font-family:Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif; 
+    font-size: 60px;
+    color: white;
+    position: relative;
+    outline: #000;
+}
+.line2 small{
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-size: 80px;
+    
+}
+.line1 small{
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-size: 30px;
+   position: relative;
+    top: 84px;
+    left: 18%;
+    color: #000000;
+    font-weight: bold; 
+    z-index: 20;
+}
+.homebtn a{
+    position: relative;
+    color: #000000;
+    text-align: center;
+    top: 80%;
+    left: 10%;
+   display: flex;
+}
+#sideNav{
+    width: 240px;
+    height: 100vh;
+    position: fixed;
+    background-image: linear-gradient(25deg,#d64c7f,#000000 80%);
+    right: -40px;
+    top: 0;
+    filter: opacity(0.9);
+
+}
+
+nav ul li{
+    list-style: none;;
+    margin: 60px 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    position: relative;
+    
+}
+.details h1{
+    font-size: 80px;
+    left: 208%;
+    position: relative;
+    top: 100px;
+    color: #820941;
+
+}
+.details small{
+    position: relative;
+    left: 208%;
+    font-size: 40px;
+    top: 100px;
+}
+.details h3{
+    left: 200%;
+    position: relative;
+    top:120px ;
+    font-size: 28px;
+}
+.details h2{
+    left: 200%;
+    position: relative;
+    top: 140px;
+    color: rgb(142, 142, 48);
+    font-size: 40px;
+}
+.button{
+    width: 160px;
+    color: #fff;
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    background-size: 300% 100%;
+    transition: all 0.3s ease-in-out;
+    left: 340%;
+    position: relative;
+    top: 120px;
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+
+} 
+ .button:hover{
+    background-position: 100% 0;
+}
+.button:focus{
+    outline: none;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+a::after{
+    content: " ";
+    position: absolute;
+    background-color: #f13499;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: #bfc6c6;
+}
+a:hover:after{
+    width: 100%;
+}

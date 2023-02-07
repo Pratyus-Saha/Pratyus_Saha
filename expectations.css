@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sherif;
+}
+section
+{
+    width: 100;
+    height: 100vh;
+}
+
+.inner{
+    width: 44%;
+    height: 40%;
+    background-image: url(pattern.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: 400%,400%;
+    transition: 2s;
+}
+.layer2:hover .inner{
+    background-position: 100%,100%;
+}
+section .layer1
+{
+    position: fixed;
+    top: 32%;
+    left: 12%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 300px;
+    background: #000;
+    background: url(gaming.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 1s;
+    z-index: 1;
+}
+.layer1:hover
+{
+     box-shadow: 0 25px 84px rgba(0,0,0,.8);;
+}
+.layer1 h1{
+    font-size: x-large;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    text-align: center;
+    background-color: #000000;
+    opacity: 80%;
+    font-family:fantasy
+}
+section .layer3
+{
+    position: fixed;
+    top: 32%;
+    left: 38%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 300px;
+    background: #000;
+    background: url(campusexpectation.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 1s;
+    z-index: 1;
+}
+.layer3:hover
+{
+     box-shadow: 0 25px 84px rgba(0,0,0,.8);;
+}
+.layer3 h1{
+    font-size: x-large;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    text-align: center;
+    background-color: #000000;
+    opacity: 80%;
+    font-family:fantasy
+}
+section .layer4
+{
+    position: fixed;
+    top: 32%;
+    left: 64%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 300px;
+    background: #000;
+    background: url(badmess.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 1s;
+    z-index: 1;
+}
+.layer4:hover
+{
+     box-shadow: 0 25px 84px rgba(0,0,0,.8);;
+}
+.layer4 h1{
+    font-size: x-large;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    text-align: center;
+    background-color: #000000;
+    opacity: 80%;
+    font-family:fantasy
+}
+section .layer5
+{
+    position: fixed;
+    top: 76%;
+    left: 12%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 300px;
+    background: #000;
+    background: url(classroom.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 1s;
+    z-index: 1;
+}
+.layer5:hover
+{
+     box-shadow: 0 25px 84px rgba(0,0,0,.8);;
+}
+.layer5 h1{
+    font-size: x-large;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    text-align: center;
+    background-color: #000000;
+    opacity: 80%;
+    font-family:fantasy
+}
+section .layer6
+{
+    position: fixed;
+    top: 76%;
+    left: 38%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 300px;
+    background: #000;
+    background: url(football.jpg );
+    background-size:cover;
+    background-position: center;
+    transition: 1s;
+    z-index: 1;
+}
+.layer6:hover
+{
+     box-shadow: 0 25px 84px rgba(0,0,0,.8);;
+}
+.layer6 h1{
+    font-size: x-large;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    text-align: center;
+    background-color: #000000;
+    opacity: 80%;
+    font-family:fantasy
+}
+section .layer7
+{
+    position: fixed;
+    top: 76%;
+    left: 64%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 300px;
+    background: #000;
+    background: url(nightlife.jpg);
+    background-size:cover;
+    background-position: left;
+    transition: 1s;
+    z-index: 1;
+}
+.layer7:hover
+{
+     box-shadow: 0 25px 84px rgba(0,0,0,.8);;
+}
+.layer7 h1{
+    font-size: x-large;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    text-align: center;
+    background-color: #000000;
+    opacity: 80%;
+    font-family:fantasy
+}
+#sideNav{
+    width: 240px;
+    height: 100vh;
+    position: fixed;
+    background-image: linear-gradient(25deg,#d64c7f,#000000 80%);
+    right: -40px;
+    top: 0;
+    filter: opacity(0.9);
+
+}
+
+nav ul li{
+    list-style: none;;
+    margin: 60px 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    position: relative;
+    
+}
+.button4{
+    width: 160px;
+    color: #fff;
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 65px;
+    width: 240px;
+    border: none;
+    border-radius: 50px;
+    background-size: 300% 100%;
+    transition: all 0.3s ease-in-out;
+    left: 148%;
+    position: relative;
+    top: -58px;
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+} 
+ .button4:hover{
+    background-position: 100% 0;
+}
+.button4.focus{
+    outline: none;
+}
+.line1 h1{
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-size: 48px;
+   position: relative;
+    top: 10px;
+    left: 4%;
+    color: #ffffff;
+    font-weight: bold; 
+}
+ 
